@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #33475B;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+}
+
+header {
+    background-color: white;
+    height: 80px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-elementos-header {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Titulo-principal {
+    color: #0000EE;
+    font-size: 24px;
+}
+
+.label-pesquisa {
+    background-color: #b1106d;
+    height: 40px;
+    padding: 8px;
+    border-radius: 4px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.input-pesquisa {
+    background-color: transparent;
+    border: none;
+    padding: 4px;
+    outline: none;
+}
+
+::placeholder {
+    color: #d10d7f;
+}
+
+
+.container {
+    width: 1280px;
+    margin: 20px auto 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.caixa {
+    background-color: aliceblue;
+    padding: 20px;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+
+footer {
+    background-color: white;
+}
+
+.rodape {
+    width: 1280px;
+    margin: 0 auto;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao {
+    border: 1px solid blue;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.caixa .botao {
+    bottom: 0;
+}
